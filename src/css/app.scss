@@ -1,1 +1,306 @@
-// app global css in SCSS form
+body,
+.q-page,
+.q-card,
+.q-item,
+.q-btn {
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 200; /* Define a espessura da fonte como ExtraLight */
+}
+.custom-bg {
+  background-color: #f0f0f0; /* Fundo cinza claro */
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+  min-height: 80vh;
+  padding: 20px;
+  width: 100%;
+}
+
+.title-div {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200; /* Define a espessura da fonte como ExtraLight */
+  font-size: 1.5rem;
+  color: rgb(122, 119, 119);
+  font-weight: bold; /* ou font-weight: 700; para negrito numérico */
+  height: 70px; /* Define uma altura fixa */
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: white;
+  margin-top: 30px;
+  text-align: left;
+  padding: 25px; /* Adiciona espaço interno */
+  width: 98%; /* Define a largura como 80% do contêiner pai */
+  margin-left: 15px;
+}
+
+.select {
+  background-color: white;
+  height: 80px; /* Define uma altura fixa */
+  padding: 25px; /* Adiciona espaço interno */
+  width: 98%; /* Define a largura como 80% do contêiner pai */
+  margin-left: 15px;
+  margin-top: none;
+}
+
+.suggestions-list {
+  background-color: white;
+  max-height: 150px;
+  overflow-y: auto;
+  padding: 25px; /* Adiciona espaço interno */
+  width: 98%; /* Define a largura como 80% do contêiner pai */
+  margin-left: 15px;
+  margin-top: none;
+}
+
+.custom-position {
+  margin-left: 80%;
+}
+
+.hotel-section {
+  margin-bottom: 20px; /* Espaço entre seções */
+}
+
+.my-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.gray-card {
+  background-color: #f0f0f0; /* Escolha o tom de cinza desejado */
+  border: none;
+  box-shadow: none;
+}
+
+.botton-search {
+  background-color: white;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  height: 80px; /* Define uma altura fixa */
+  padding: 25px; /* Adiciona espaço interno */
+  width: 98%; /* Define a largura como 80% do contêiner pai */
+  margin-left: 15px;
+  margin-top: none;
+}
+
+.hotel-section {
+  margin-bottom: 20px; /* Espaço entre seções de hotéis */
+}
+
+.hotel-price-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Alinha os itens à direita */
+  justify-content: center;
+  text-align: right;
+  padding-left: 10px; /* Espaço entre as informações e o preço */
+}
+
+.hotel-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px; /* Espaço entre o preço e o botão */
+}
+
+.q-item-section.side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end; /* Para alinhar o botão e preço à direita */
+  width: 150px; /* Limita a largura */
+}
+
+.hotel-name {
+  color: #686565; /* Cor cinza */
+  font-size: 30px; /* Tamanho da fonte */
+}
+
+.hotel-adress {
+  color: #686565; /* Cor cinza */
+  margin-top: 30px;
+  font-size: 15px; /* Tamanho da fonte */
+}
+
+.hotel-name-section {
+  display: flex;
+  flex-direction: column; /* Organiza o conteúdo na vertical */
+  justify-content: flex-start; /* Alinha ao topo */
+  height: 100%; /* Garante que a altura da seção ocupe toda a área disponível */
+  margin-top: 15px;
+}
+
+.star-rating {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.btn-reem {
+  background-color: #8a8484;
+  color: white;
+  margin-top: 10px;
+  font-size: 13px;
+  font-weight: bold;
+  width: 150px;
+  height: 40px;
+  padding: 10px 15px;
+  text-align: center;
+  border: none;
+  transition: none;
+  user-select: none;
+  text-transform: none;
+  cursor: pointer;
+}
+
+.btn-reem:hover {
+  background-color: #8a8484;
+  color: white;
+}
+
+.amenities-icons {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.separator {
+  margin: 0 9px;
+  font-weight: bold;
+}
+
+.price-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+
+.price-container .price-label {
+  font-size: 0.9em;
+  font-weight: normal;
+  color: #686565;
+  margin-bottom: 3px;
+}
+
+.price-container .price {
+  font-size: 3.5em;
+  font-weight: bold;
+  color: #333;
+}
+
+.text-h3 {
+  font-size: 10px;
+  margin-left: 10px;
+  margin-top: -40px;
+}
+
+.select-btn {
+  width: 100%;
+}
+
+.btn-toggle {
+  margin-top: 40px;
+  margin-left: 78%;
+  background-color: rgb(245, 243, 243);
+  padding: 0;
+  outline: none;
+  box-shadow: none;
+}
+
+.q-carousel {
+  height: 400px !important;
+  width: 600px !important;
+  margin: 20px 5;
+  margin-right: 50px;
+}
+
+.q-carousel__slide {
+  background-size: contain !important;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.image-counter {
+  text-align: center;
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-right: 80px;
+  color: #686565;
+}
+
+.drawer-open {
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s;
+}
+
+.drawer-openx {
+  background-color: rgba(185, 183, 183, 0.3);
+  transition: background-color 0.3s;
+}
+
+.adress-text {
+  text-align: center;
+  color: rgba(26, 24, 24, 0.452);
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.text-name {
+  text-align: center;
+  color: rgba(26, 24, 24, 0.452);
+  font-family: 'Poppins', sans-serif !important;
+  margin-bottom: 15px;
+}
+
+.star-text {
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 10px;
+  color: rgba(77, 73, 73, 0.897);
+  text-align: left;
+}
+
+.description-tx {
+  text-align: center;
+  margin-top: 10px;
+  color: rgba(77, 73, 73, 0.897);
+  font-family: 'Poppins', sans-serif !important;
+}
+
+text-grey {
+  color: #666;
+  font-size: 0.9rem;
+  padding: 20px 0;
+  font-style: italic;
+}
+
+.q-infinite-scroll {
+  margin: 20px 0;
+}
+
+.q-card__section {
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.no-results-message {
+  text-align: center;
+  padding: 40px 20px;
+  margin: 30px auto;
+  max-width: 500px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.no-results-message h3 {
+  color: #666;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.no-results-message p {
+  color: #888;
+  line-height: 1.5;
+}
