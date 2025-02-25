@@ -5,7 +5,7 @@
         <q-col :cols="12" class="q-mx-auto">
           <q-row>
             <q-col>
-              <div class="title-div">Reservar hotel</div>
+              <div class="title-div" data-test="title">Reservar hotel</div>
               <q-input
                 :model-value="inputValue"
                 label="Destino"
@@ -61,7 +61,7 @@
             ]"
           />
 
-          <div v-if="noResults" class="no-results-message">
+          <div v-if="noResults" class="no-results-message" data-test="no-results">
             <q-icon name="hotel" size="lg" class="q-mb-sm" />
             <h3>Nenhum hotel encontrado</h3>
             <p>Não encontramos hotéis disponíveis para este destino.</p>
